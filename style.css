@@ -1,14 +1,14 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: navy;
+    color: rgb(0, 0, 255);
     text-align: center;
 }
 
 p {
-    color: darkgray;
+    color: rgb(149, 149, 149);
     font-size: 16px;
-} 
+}
