@@ -17,10 +17,8 @@ p {
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e;
-    /*Blue*/
-    --secondary-color: black;
-    /* Black*/
+    --primary-color: #416a8e; /*Blue*/
+    --secondary-color: black; /* Black*/
 }
 
 /* Carousel Container */
