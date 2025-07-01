@@ -1,122 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NFTMac</title>
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
-  <video autoplay loop="" height="730">
-          <source src="video/Logo maker project.mp4">
-        </video>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
 </head>
 
-<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+<body>
 
-<body class="d-flex flex-column min-vh-100">
- 
-  <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">NFTMac</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <!-- Video Background Section with Navbar on Top -->
+  <header class="position-relative">
+    <video autoplay loop muted playsinline class="w-100" style="max-height: 700px; object-fit: cover;">
+      <source src="video/Logo maker project.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <!-- Navbar with NFTMac Title -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 position-absolute top-0 start-0 w-100">
+      <div class="container">
+        <a class="navbar-brand display-6 fw-bold" href="index.html">NFTMac</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-
-  <!-- Header with carousel -->
-  <header id="header" class="container section">
-    <div class="row">
-      <div class="col-12 col-xl-6 text-center text-xl-start">
-        <h1 class="display-3">NFTMac</h1>
-        <p class="lead display-6 sub-heading-color">Journey To Mars!</p>
-        <p class="my-4"> The Cryptopups are About to start their journey to mars let's just hope it all goes to plan and
-          nothing gets in the way</p>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-12 col-xl-6">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="carousel/images/pup9.jpeg" class="d-block w-100" alt=" ">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup8.jpeg" class="d-block w-100" alt=" ">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup7.jpeg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup5.jpeg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup20.jpeg" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup1.jpeg" class="d-block w-100" alt=" ">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup4.jpeg" class="d-block w-100" alt=" ">
-            </div>
-            <div class="carousel-item">
-              <img src="carousel/images/pup12.jpeg" class="d-block w-100" alt=" ">
-            </div>
-            <!-- Navigation Arrows -->
-            <button class="prev">&#10094;</button>
-            <button class="next">&#10095;</button>
-            <!-- Dots for navigation -->
-            <div class="carousel-dots">
-              <span class="dot" data-index="0"></span>
-              <span class="dot" data-index="1"></span>
-              <span class="dot" data-index="2"></span>
-            </div>
-          </div>
+    </nav>
+  </header>
 
-          <!-- JavaScrip-->
-          <script src="script.js"></script>
-        
-          <!-- Footer / contact section -->
-          <!-- mt-auto added to push footer to the bottom of the page -->
-          <footer class="mt-auto">
-            <div class="container">
-              <div class="row justify-content-center">
-                <!-- Contact info -->
-                <div class="col-12 col-md-6 col-xl-4">
-                <h3 class="sub-heading-color"> Contact info</h3>
-              
-              </div>
-          </footer>
+  <!-- Carousel Section -->
+  <section class="container my-5">
+    <div class="text-center mb-4">
+      <h2>Meet the Cryptopups</h2>
+      <p>Our digital companions on a journey to Mars</p>
+    </div>
 
-          <!-- Bootstrap JS -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-            </script>
+    <div id="pupCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="carousel/images/pup9.jpeg" class="d-block w-100" alt="Pup 9" />
+        </div>
+        <div class="carousel-item">
+          <img src="carousel/images/pup8.jpeg" class="d-block w-100" alt="Pup 8" />
+        </div>
+        <div class="carousel-item">
+          <img src="carousel/images/pup7.jpeg" class="d-block w-100" alt="Pup 7" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#pupCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#pupCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
 
-          <!-- Font Awesome kit -->
-          <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 NFTMac. All rights reserved.</p>
+  </footer>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
