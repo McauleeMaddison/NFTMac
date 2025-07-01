@@ -128,7 +128,7 @@ You can deploy this project using GitHub Pages:
 1. Push your project to a GitHub repo
 2. Go to **Settings > Pages**
 3. Set branch to `main` and root to `/`
-4. Your site will be live at https://github.com/McauleeMaddison/NFTMac
+4. Your site will be live at https://mcauleemaddison.github.io/NFTMac/
 
 ---
 
