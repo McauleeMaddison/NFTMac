@@ -43,7 +43,6 @@ p {
     background: #000;
 }
 
-/* optional fallback */
 /* video element */
 .video-container video {
     position: absolute;
@@ -78,6 +77,36 @@ p {
 }
 
 /* Navigation Buttons */
+
+/* Dark semi-transparent navbar background */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8) !important; /* Darker and easier to see over video */
+  transition: background-color 0.3s ease;
+  z-index: 999; /* Ensure it's above everything */
+}
+
+/* Optional: even darker when scrolled */
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+/* Navbar links */
+.nav-link {
+  color: #1e0b0b !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* Gold highlight on hover */
+}
+
+/* Add spacing below fixed navbar */
+body {
+  padding-top: 70px; /* Adjust if needed */
+}
+
+
 button {
     position: absolute;
     top: 50%;
