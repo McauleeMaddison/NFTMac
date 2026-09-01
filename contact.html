@@ -1,84 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | NFTMac</title>
 
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get in touch with NFTMac about the Cryptopups digital collectible concept.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact | NFTMac</title>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">NFTMac</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <header class="site-header subpage-header">
+        <nav class="page-shell primary-nav" aria-label="Primary navigation">
+            <a class="brand" href="index.html">NFTMac</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <main class="page-shell" id="main-content">
+        <section class="section contact-section" aria-labelledby="contact-heading">
+            <div class="section-heading">
+                <p class="eyebrow">Get in touch</p>
+                <h1 id="contact-heading">Let’s talk Cryptopups.</h1>
+                <p>Have an idea, a collaboration in mind, or just want to say hello? Send a message to NFTMac.</p>
+            </div>
 
-  <!-- Contact Section -->
-  <main class="container my-5 flex-grow-1">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold">Get in Touch</h2>
-      <p class="text-muted">We'd love to hear from you</p>
-    </div>
+            <div class="contact-layout">
+                <aside class="contact-details" aria-labelledby="contact-details-heading">
+                    <h2 id="contact-details-heading">Contact details</h2>
+                    <dl>
+                        <div><dt>Email</dt><dd><a href="mailto:email@nftmac.com">email@nftmac.com</a></dd></div>
+                        <div><dt>Location</dt><dd>London, United Kingdom</dd></div>
+                        <div><dt>Availability</dt><dd>Open to creative conversations</dd></div>
+                    </dl>
+                </aside>
 
-    <div class="row justify-content-center">
-      <!-- Contact Info -->
-      <div class="col-md-4 mb-4">
-        <h5><i class="fas fa-envelope me-2"></i>Email</h5>
-        <p>email@nftmac.com</p>
+                <form action="mailto:email@nftmac.com" enctype="text/plain" method="post">
+                    <div class="form-field">
+                        <label for="name">Your name</label>
+                        <input autocomplete="name" id="name" name="name" required type="text">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Your email</label>
+                        <input autocomplete="email" id="email" name="email" required type="email">
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Your message</label>
+                        <textarea id="message" name="message" required rows="7"></textarea>
+                    </div>
+                    <button class="button" type="submit">Open email message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-        <h5><i class="fas fa-phone me-2"></i>Phone</h5>
-        <p>+44 1234 567890</p>
-
-        <h5><i class="fas fa-map-marker-alt me-2"></i>Location</h5>
-        <p>London, United Kingdom</p>
-      </div>
-
-      <!-- Contact Form -->
-      <div class="col-md-6">
-        <form>
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Your Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="What's on your mind?" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-warning w-100">Send Message</button>
-        </form>
-      </div>
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 NFTMac. All rights reserved.</p>
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="site-footer">
+        <div class="page-shell footer-content">
+            <p>&copy; 2026 NFTMac. A fictional digital collectibles showcase.</p>
+            <a href="https://ethereum.org/en/nft/" rel="noopener noreferrer" target="_blank">NFT learning
+                resource</a>
+        </div>
+    </footer>
 </body>
+
 </html>

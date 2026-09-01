@@ -1,78 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gallery | NFTMac</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore the NFTMac Cryptopups digital collectible gallery.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Gallery | NFTMac</title>
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">NFTMac</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <header class="site-header subpage-header">
+        <nav class="page-shell primary-nav" aria-label="Primary navigation">
+            <a class="brand" href="index.html">NFTMac</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Gallery Section -->
-  <section class="container py-5">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold">NFTMac Gallery</h2>
-      <p class="text-muted">Explore the Cryptopups collection</p>
-    </div>
+    <main class="page-shell" id="main-content">
+        <section class="section gallery-section" aria-labelledby="gallery-heading">
+            <div class="section-heading">
+                <p class="eyebrow">The full crew</p>
+                <h1 id="gallery-heading">Cryptopups gallery</h1>
+                <p>Explore a selection of characters from the NFTMac collection.</p>
+            </div>
 
-    <div class="row g-4">
-      <!-- Gallery cards -->
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup1.jpeg" class="img-fluid rounded shadow" alt="Pup 1">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup4.jpeg" class="img-fluid rounded shadow" alt="Pup 4">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup5.jpeg" class="img-fluid rounded shadow" alt="Pup 5">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup7.jpeg" class="img-fluid rounded shadow" alt="Pup 7">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup8.jpeg" class="img-fluid rounded shadow" alt="Pup 8">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup9.jpeg" class="img-fluid rounded shadow" alt="Pup 9">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup12.jpeg" class="img-fluid rounded shadow" alt="Pup 12">
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <img src="carousel/images/pup20.jpeg" class="img-fluid rounded shadow" alt="Pup 20">
-      </div>
-    </div>
-  </section>
+            <div class="gallery-grid">
+                <figure><img src="assets/images/cryptopups/pup1.jpeg" alt="Cryptopup number one"><figcaption>Signal</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup4.jpeg" alt="Cryptopup number four"><figcaption>Luna</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup5.jpeg" alt="Cryptopup number five"><figcaption>Pixel</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup7.jpeg" alt="Cryptopup number seven"><figcaption>Rocket</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup8.jpeg" alt="Cryptopup number eight"><figcaption>Stella</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup9.jpeg" alt="Cryptopup number nine"><figcaption>Orbit</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup12.jpeg" alt="Cryptopup number twelve"><figcaption>Nova</figcaption></figure>
+                <figure><img src="assets/images/cryptopups/pup20.jpeg" alt="Cryptopup number twenty"><figcaption>Comet</figcaption></figure>
+            </div>
+        </section>
+    </main>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 NFTMac. All rights reserved.</p>
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="site-footer">
+        <div class="page-shell footer-content">
+            <p>&copy; 2026 NFTMac. A fictional digital collectibles showcase.</p>
+            <a href="https://ethereum.org/en/nft/" rel="noopener noreferrer" target="_blank">NFT learning
+                resource</a>
+        </div>
+    </footer>
 </body>
-</html>
 
+</html>
