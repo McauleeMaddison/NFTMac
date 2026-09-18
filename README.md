@@ -59,7 +59,9 @@ All website images, including the finished-product screenshots, are consolidated
 
 ### Lighthouse result
 
-The Lighthouse / PageSpeed Insights audit link is configured for the deployed site and covers the Performance, Accessibility, and Best Practices categories. Open the report here for the assessor to review: [open the Lighthouse audit](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fmcauleemaddison.github.io%2FNFTMac%2F).
+The desktop Lighthouse / PageSpeed Insights audit returned Performance 100, Accessibility 95, and Best Practices 100. Open the report here for the assessor to review: [open the Lighthouse audit](https://pagespeed.web.dev/analysis/https-mcauleemaddison-github-io-NFTMac/inzb0w8gfx?form_factor=desktop).
+
+![Lighthouse desktop results showing Performance 100, Accessibility 95, and Best Practices 100.](assets/images/screenshots/lighthouse-results.png)
 
 ## Known issues / bugs fixed
 
